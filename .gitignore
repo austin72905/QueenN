@@ -1,0 +1,64 @@
+# 編譯輸出目錄
+bin/
+obj/
+[Bb]uild/
+debug/
+release/
+
+# 用戶特定文件
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+
+
+# Visual Studio
+.vscode/
+.vs/
+
+# 套件管理文件夾
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET 臨時文件
+*.vspscc
+*.vssscc
+_ReSharper*/
+*~.vspscc
+
+
+*.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+
+_ci/
+_pipeline/
+
+
+*.mdf
+*.ldf
+
+
+appsettings*.json
+secrets.json
+
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.zip
+*.tar.gz
+
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
